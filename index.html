@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <!--CSS bağlantı kodu-->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <div class="container top">
+
+            <!--Baslık alanı -->
+            <h1>Hava Durumu</h1>
+            <form action="" onsubmit="return false">
+                <input type="text" class="search" placeholder="Şehir Ara">
+
+                <!--Arama butonu-->
+                <button type="submit" class="btn">Ara</button>
+
+                <p class="error"></p>
+                </form>
+                <section>
+                <div class="container">
+                    <div class="icon">
+                        <img src="" alt="" class="weather-icon">
+                    </div>
+
+                    <div class="location">
+
+                        <!--Sehir ve ülke alanı -->
+                        <div class="city">Ankara, TR</div>
+
+                        <!--Gün ,Ay ve Yıl alanı -->
+                        <div class="date"> - </div>
+
+                    </div>
+                    <div class="current">
+
+                        <!--Sıcaklık gösterimi alanı-->
+                        <div class="temp">Sıcaklık: 25 <span>°C</span></div>
+
+                        <!-- Hava değişkenleri -->
+                        <div class="weather">Hava Durumu: Sunny</div>
+
+                        <!--Sıcaklık aralığı -->
+                        <div class="temp-range">Sıcaklık Aralığı: 10°C / 15°C</div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+<!--JavaScript bağlatı kodu -->
+
+    <script src="script.js"></script>
+</body>
+</html>
